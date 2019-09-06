@@ -13,7 +13,7 @@ function prueba(req, res){
 
 	res.status(200).send({
 					data: [2,3,4],
-					message: "Tuvieja con nodeJS y EXPRESS" + " - " + nombre
+					message: "Ejemplo ApiRest con nodeJS y EXPRESS" + " - " + nombre
 					});
 
 }
